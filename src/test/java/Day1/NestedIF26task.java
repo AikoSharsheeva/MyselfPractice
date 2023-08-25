@@ -10,7 +10,7 @@ public class NestedIF26task {
 
         String select = sc.nextLine();
 
-        if (select.equalsIgnoreCase("1")) {
+        if (select.equalsIgnoreCase("1")) { // ПЕРВАЯ ЧАСТЬ
             System.out.println("Выбери блюдо" + "\n" + "1.Лагман" + "\n" +
                     "2. Бургер");
             String main = sc.nextLine();
@@ -21,7 +21,7 @@ public class NestedIF26task {
             } else {
                 System.out.println("Error");
             }
-        } else if (select.equalsIgnoreCase("2")) {
+        } else if (select.equalsIgnoreCase("2")) { //ВТОРАЯ ЧАСТЬ!!!!!
             System.out.println("Выберите закуску" + "\n" + "1.Степ-ролл" + "\n" +
                     "2.Цезарь");
             String salad = sc.nextLine();
